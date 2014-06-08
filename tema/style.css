@@ -1,13 +1,36 @@
 /*
 Theme Name: CCtheme
 Author: CodeCrew
-Author URI: nwebdevelopment.com
+Author URI: codecrewdev.com
 Description: Custom made theme
 Version: 1.0
+
 */
-@import url('bootstrap/css/bootstrap.css'); 
-@import url('bootstrap/css/bootstrap-responsive.css'); 
-body { 
-     padding-top: 60px; 
-     padding-bottom: 40px; 
+html{
+    margin: 0 !important;
+}
+#wrapper {
+    padding: 0;
+}
+
+#main_nav_menu {
+    background-color: red;
+}
+
+#header_image_wrapper{
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+
+.left_sidebar,
+.right_sidebar {
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.left_sidebar > h2,
+.right_sidebar > h2{
+    margin: 0;
+    margin-bottom: 0.5em;
 }
